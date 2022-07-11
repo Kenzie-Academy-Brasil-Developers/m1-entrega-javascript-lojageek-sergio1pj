@@ -49,6 +49,4 @@ let secaoFigure = document.querySelector(".action_figures")
 let secaoPainting = document.querySelector(".paintings")
 listFigure.forEach(figure => secaoFigure.appendChild(criarCard(figure)));
 listPainting.forEach(painting => secaoPainting.appendChild(criarCard(painting)));
-
-
         
