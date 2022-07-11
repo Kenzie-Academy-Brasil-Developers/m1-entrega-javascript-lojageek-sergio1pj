@@ -25,7 +25,7 @@ function createPaintingItem(imagem, nome, valor){
 createPaintingItem("assets/img/painting/clock.jpg", "Clock", "R$ 199");    
 createPaintingItem("assets/img/painting/gamepad.jpg", "Gamepad", "R$ 199");
 createPaintingItem("assets/img/painting/personagem.jpg", "Personagem", "R$ 199");
-function criarCard(produto){
+function createCard(produto){
     let tagLi = document.createElement("li");
     tagLi.classList.add("product-card");
     let tagDivImg = document.createElement("div");
@@ -45,8 +45,10 @@ function criarCard(produto){
     tagLi.appendChild(tagDivInfo);
     return tagLi;
 }
+function createSection(list, section) {
+    list.forEach(element => section.appendChild(createCard(element)));
+}
 let secaoFigure = document.querySelector(".action_figures")
 let secaoPainting = document.querySelector(".paintings")
-listFigure.forEach(figure => secaoFigure.appendChild(criarCard(figure)));
-listPainting.forEach(painting => secaoPainting.appendChild(criarCard(painting)));
-        
+createSection(listFigure, secaoFigure);
+createSection(listPainting, secaoPainting);
