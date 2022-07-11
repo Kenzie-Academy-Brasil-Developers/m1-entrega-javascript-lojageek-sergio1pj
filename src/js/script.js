@@ -28,13 +28,16 @@ createPaintingItem("assets/img/painting/personagem.jpg", "personagem", "R$ 199")
 function criarCard(produto){
     let tagLi = document.createElement("li");
     tagLi.classList.add("product-card");
+    let tagDivImg = document.createElement("div");
+    tagDivImg.classList.add("product-card-image");
     let tagImage = document.createElement("img");
     let tagNome = document.createElement("h2");
     let tagValor = document.createElement("p");
     tagImage.src = produto["imagem"];
     tagNome.innerText = produto["nome"];
     tagValor.innerText = produto["valor"];
-    tagLi.appendChild(tagImage);
+    tagDivImg.appendChild(tagImage);
+    tagLi.appendChild(tagDivImg);
     tagLi.appendChild(tagNome);
     tagLi.appendChild(tagValor);
     return tagLi;
