@@ -13,8 +13,10 @@ html, body, figure, header,img, div, section, article, input, button, textarea, 
     line-height: 28px;
     box-sizing: border-box;
 }
-
-.container{
+img {
+    max-width: 100%;
+}
+.container {
     max-width: 1200px;
     margin: 0 auto; 
 }
@@ -66,14 +68,14 @@ html, body, figure, header,img, div, section, article, input, button, textarea, 
     font-weight: 500;
 }
 
-.products-wrapper{
+.products-wrapper {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.product-card{
+.product-card {
     width: 32%;
     height: 500px;
     background-color: #fff;
@@ -85,7 +87,7 @@ html, body, figure, header,img, div, section, article, input, button, textarea, 
     justify-content: flex-end;
 } 
 
-.product-card-image{
+.product-card-image {
     display: flex;
     width: 100%;
     height: 207px;
