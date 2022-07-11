@@ -25,7 +25,6 @@ function createPaintingItem(imagem, nome, valor){
 createPaintingItem("assets/img/painting/clock.jpg", "clock", "R$ 199");    
 createPaintingItem("assets/img/painting/gamepad.jpg", "gamepad", "R$ 199");
 createPaintingItem("assets/img/painting/personagem.jpg", "personagem", "R$ 199");
-
 function criarCard(produto){
     let tagLi = document.createElement("li");
     let tagImage = document.createElement("img");
