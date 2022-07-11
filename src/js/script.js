@@ -38,8 +38,8 @@ function criarCard(produto){
     tagLi.appendChild(tagValor);
     return tagLi;
 }
-let secaoFigure = document.querySelector(".bonecos_de_acao")
-let secaoPainting = document.querySelector(".quadros_decorativos")
+let secaoFigure = document.querySelector(".action_figures")
+let secaoPainting = document.querySelector(".paintings")
 listFigure.forEach(figure => secaoFigure.appendChild(criarCard(figure)));
 listPainting.forEach(painting => secaoPainting.appendChild(criarCard(painting)));
 
