@@ -28,7 +28,7 @@ createPaintingItem("assets/img/painting/personagem.jpg", "personagem", "R$ 199")
 function criarCard(produto){
     let tagLi = document.createElement("li");
     let tagImage = document.createElement("img");
-    let tagNome = document.createElement("p");
+    let tagNome = document.createElement("h2");
     let tagValor = document.createElement("p");
     tagImage.src = produto["imagem"];
     tagNome.innerText = produto["nome"];

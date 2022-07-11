@@ -31,10 +31,10 @@ img{
     justify-content: space-between;
 }
 .produtos li{
-    max-width: 300px;
+    max-width: 207px;
     text-align: center;
     background-color: #fff;
-    min-height: 280px;
+    min-height: 275px;
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
