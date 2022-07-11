@@ -34,10 +34,10 @@ function criarCard(produto){
     tagImage.src = produto["imagem"];
     tagNome.innerText = produto["nome"];
     tagValor.innerText = produto["valor"];
-    TagLi.appendChild(tagImage);
-    TagLi.appendChild(tagNome);
-    TagLi.appendChild(tagValor);
-    return TagLi;
+    tagLi.appendChild(tagImage);
+    tagLi.appendChild(tagNome);
+    tagLi.appendChild(tagValor);
+    return tagLi;
 }
 
 /*
