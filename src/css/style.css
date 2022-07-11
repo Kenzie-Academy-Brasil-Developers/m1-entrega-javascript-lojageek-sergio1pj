@@ -9,12 +9,12 @@ html, body, figure, header,img, div, section, article, input, button, textarea, 
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: #747474;
+   
     
 
 }
 body{
-    background-color:#f1f1f1;
+    background-color:#FFFFFF;
 }
 section{
     max-width: 1000px;
