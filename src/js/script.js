@@ -27,6 +27,7 @@ createPaintingItem("assets/img/painting/gamepad.jpg", "gamepad", "R$ 199");
 createPaintingItem("assets/img/painting/personagem.jpg", "personagem", "R$ 199");
 function criarCard(produto){
     let tagLi = document.createElement("li");
+    tagLi.classList.add("product-card");
     let tagImage = document.createElement("img");
     let tagNome = document.createElement("h2");
     let tagValor = document.createElement("p");
