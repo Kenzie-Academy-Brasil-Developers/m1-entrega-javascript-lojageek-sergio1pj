@@ -31,15 +31,18 @@ function criarCard(produto){
     let tagDivImg = document.createElement("div");
     tagDivImg.classList.add("product-card-image");
     let tagImage = document.createElement("img");
+    let tagDivInfo = document.createElement("div");
+    tagDivInfo.classList.add("product-card-info");
     let tagNome = document.createElement("h2");
     let tagValor = document.createElement("p");
     tagImage.src = produto["imagem"];
     tagNome.innerText = produto["nome"];
     tagValor.innerText = produto["valor"];
     tagDivImg.appendChild(tagImage);
+    tagDivInfo.appendChild(tagNome);
+    tagDivInfo.appendChild(tagValor);
     tagLi.appendChild(tagDivImg);
-    tagLi.appendChild(tagNome);
-    tagLi.appendChild(tagValor);
+    tagLi.appendChild(tagDivInfo);
     return tagLi;
 }
 let secaoFigure = document.querySelector(".action_figures")
