@@ -48,13 +48,14 @@ img {
 
 .menu-column.menu-second-column {
     justify-content: flex-end;
+    gap: 10px;
 }
 
 .menu-nav ul {
     display: flex;
     list-style: none;
     gap: 10px; 
-    }
+}
 
 .menu-nav ul li a {
     text-decoration: none;
