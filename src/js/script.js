@@ -1,3 +1,4 @@
+/*
 let item = {
 
     }
@@ -17,7 +18,8 @@ let nome = document.createElement('span')
 nome.innerText = `${listPerson[i].nome}`
 elementoLista.appendChild(nome)
 secaolistFigure.appendChild(elementoLista)
-
+*/
+alert("12");
 
 
 

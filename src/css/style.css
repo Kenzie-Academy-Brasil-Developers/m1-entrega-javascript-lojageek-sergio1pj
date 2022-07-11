@@ -9,9 +9,6 @@ html, body, figure, header,img, div, section, article, input, button, textarea, 
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-   
-    
-
 }
 body{
     background-color:#FFFFFF;
@@ -54,7 +51,7 @@ img{
     right: 10px;
     top: 10px;
 }
-.produtos li img{}
+/*.produtos li img{}*/
 .produtos li h2{
     font-size: 13px;
 }
