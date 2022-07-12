@@ -22,14 +22,14 @@ function createActionItem(imagem, nome, valor){
 };
 function createCard(produto){
     let tagLi = document.createElement("li");
-    tagLi.classList.add("product-card");
     let tagDivImg = document.createElement("div");
-    tagDivImg.classList.add("product-card-image");
     let tagImage = document.createElement("img");
     let tagDivInfo = document.createElement("div");
-    tagDivInfo.classList.add("product-card-info");
     let tagNome = document.createElement("h2");
     let tagValor = document.createElement("p");
+    tagLi.classList.add("product-card");
+    tagDivImg.classList.add("product-card-image");
+    tagDivInfo.classList.add("product-card-info");
     tagImage.src = produto["imagem"];
     tagNome.innerText = produto["nome"];
     tagValor.innerText = produto["valor"];
